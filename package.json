@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
-    "dev": "concurrently \"nodemon index.js\" \" npm start --prefix casino-front\""
+    "dev": "concurrently \"nodemon index.js\" \" npm start --prefix casino-front\"",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --force --prefix casino-front && npm run build --prefix casino-front"
   },
   "author": "whitecoldd",
   "license": "ISC",
