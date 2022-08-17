@@ -1,0 +1,63 @@
+@import "../../../globalStyles";
+
+
+
+.AllProviders {
+    width: 100%;
+    padding: 50px*$vw;
+
+    @include flex(flex, column, nowrap, flex-start, flex-start, unset);
+}
+
+.AllProviders_w {
+    width: 100%;
+
+    @include flex(flex, row, nowrap, space-evenly, center, unset);
+
+    gap: 32px*$vw;
+    margin-bottom: 50px*$vw;
+    margin-right: 32px*$vw;
+}
+.oneProvider {
+    width: 200px*$vw;
+    height: 80px*$vw;
+    background-color: #949494;
+    border-radius: 20px*$vw;
+
+    @include flex(flex, row, nowrap, center, center, unset);
+
+    img {
+        width: 80%;
+        height: 80%;
+        object-fit: contain;
+    }
+}
+
+.AllProviders_title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px*$vw;
+    line-height: 42px*$vw;
+    color: #FFFFFF;
+    margin-bottom: 26px*$vw;
+}
+
+.AllProviders_text {
+    height: auto;
+    overflow: hidden;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px*$vw;
+    line-height: 138.4%;
+    color: #fff;
+    margin-bottom: 35px*$vw;
+}
+.AllProviders_text_blur {
+    height: 80px*$vw;
+    background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 83.21%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}

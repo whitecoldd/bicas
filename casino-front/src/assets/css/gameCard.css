@@ -1,0 +1,242 @@
+.gameCard {
+  width: 13.02083vw;
+  height: 18.22917vw;
+  border-radius: 1.25vw;
+  position: relative;
+  overflow: hidden;
+}
+
+.gameCard > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.gameCard:hover .gameCard_hover {
+  visibility: visible;
+  opacity: 1;
+}
+
+.gameCard_hover {
+  width: 100%;
+  height: 100%;
+  padding: 0.78125vw;
+  background: rgba(0, 0, 0, 0.7);
+  visibility: hidden;
+  opacity: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.gameCard_hover_default {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  gap: 1.19792vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: unset;
+      align-content: unset;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  visibility: visible;
+  opacity: 1;
+}
+
+.gameCard_hover_default button {
+  width: 6.40625vw;
+}
+
+.gameCard_iconBtns {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  gap: 0.78125vw;
+}
+
+.gameCard_iconBtn {
+  width: 1.04167vw;
+  height: 1.04167vw;
+  cursor: pointer;
+}
+
+.gameCard_iconBtn svg {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.gameCard_hover_stats {
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding-bottom: 1.14583vw;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  visibility: hidden;
+  opacity: 0;
+}
+
+.gameCard_hover_stats button {
+  width: 6.40625vw;
+  margin: 0 auto;
+}
+
+.gameCard_stats_title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.9375vw;
+  line-height: 1.14583vw;
+  color: #FFFFFF;
+  position: absolute;
+  left: 0.78125vw;
+  top: 0.78125vw;
+}
+
+.gameCard_stats_close {
+  width: 0.67708vw;
+  height: 0.67708vw;
+  cursor: pointer;
+  position: absolute;
+  right: 0.78125vw;
+  top: 0.78125vw;
+}
+
+.gameCard_stats_close svg {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.gameCard_stats_content_w {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: unset;
+      align-content: unset;
+  gap: 1.04167vw;
+}
+
+.gameCard_stats_content_w::-webkit-scrollbar {
+  display: none;
+}
+
+.gameCard_stats_content {
+  width: 100%;
+  max-height: 80%;
+  margin-bottom: 1.875vw;
+  padding-top: 3.95833vw;
+}
+
+.gameCard_stats_row {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: unset;
+      align-content: unset;
+}
+
+.gameCard_stats_row .left {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.625vw;
+  line-height: 0.78125vw;
+  color: #FFFFFF;
+}
+
+.gameCard_stats_row .right {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 0.625vw;
+  line-height: 0.78125vw;
+  text-align: right;
+  color: #EB266F;
+}
+
+/* .gameCard_hover_default,
+.gameCard_hover_stats {
+    position: absolute;
+} */
+.gameCard_big {
+  width: 43.38542vw;
+}
+
+.showStats {
+  visibility: visible;
+  opacity: 1;
+}
+
+.hide_hover_default {
+  visibility: hidden;
+  opacity: 0;
+  display: none;
+}

@@ -1,0 +1,59 @@
+@import "../../../../globalStyles";
+
+
+.topBanner_oneSlide {
+    width: 546px*$vw;
+
+    .bonus {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 16px*$vw;
+        line-height: 19px*$vw;
+        letter-spacing: 0.04em;
+        text-transform: uppercase;
+        color: #38BC30;
+        margin-bottom: 23px*$vw;
+    }
+    .firstTitle {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 46px*$vw;
+        line-height: 56px*$vw;
+        letter-spacing: 0.04em;
+        color: #FFFFFF;
+        margin-top: 23px*$vw;
+    }
+    .lastTitle {
+        width: 540px*$vw;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 46px*$vw;
+        line-height: 56px*$vw;
+        letter-spacing: 0.04em;
+        color: #FFFFFF;
+
+        span {
+            color: #EB266F;
+        }
+    }
+    .green_btn {
+        width: 213px*$vw;
+        height: 62px*$vw;
+        background: linear-gradient(270.41deg, #5EFFB1 -44.74%, #2BA400 93.45%);
+        border-radius: 15px*$vw;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        margin-top: 25px*$vw;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 24px*$vw;
+        line-height: 29px*$vw;
+        color: #FFFFFF;
+    }
+}

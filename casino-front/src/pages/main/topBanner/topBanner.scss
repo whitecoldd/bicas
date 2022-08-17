@@ -1,0 +1,90 @@
+@import "../../../globalStyles";
+
+
+
+.topBanner {
+    width: 100%;
+    padding-left: 50px*$vw;
+
+    @include flex(flex, row, nowrap, space-between, center, unset);
+}
+
+.topBanner_slider {
+    align-self: flex-end;
+    padding-bottom: 140px*$vw;
+    position: relative;
+}
+
+.mainTopBannerSlider {
+    width: 546px*$vw;
+}
+
+.topBanner_bigImg {
+    width: 1030px*$vw;
+    height: 623px*$vw;
+    position: relative;
+    right: -27px*$vw;
+
+    .tries {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+    .woman_img {
+        width: 859px*$vw;
+        height: 548px*$vw;
+        position: absolute;
+        bottom: -80px*$vw;
+        left: 45px*$vw;
+        z-index: 3;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+    .blurCircle {
+        width: 150px*$vw;
+        height: 150px*$vw;
+        background-color: #FFFFFF;
+        filter: blur(101px*$vw);
+        position: absolute;
+        top: 300px*$vw;
+        right: 355px*$vw;
+        z-index: 2;
+    }
+}
+
+
+.topBanner_arrow,
+.slick-arrow {
+    width: 14px*$vw;
+    height: 28px*$vw;
+    position: absolute;
+    top: unset;
+    bottom: -70px*$vw;
+    cursor: pointer;
+
+    &.slick-prev {
+        left: 10px*$vw;
+        transform: rotate(180deg);
+    }
+    &.slick-next {
+        left: 73px*$vw;
+        bottom: -80px*$vw;
+    }
+
+    &:before,
+    &:after {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+.slick-next:before, .slick-prev:before {
+    content: url('../img/topBanner_right.svg');
+}
+/* .slick-prev {
+    transform: rotate(180deg);
+} */

@@ -1,0 +1,88 @@
+@import "./globalStyles";
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    background-color: #171C2C;
+    overflow-x: hidden;
+    margin: 0 auto;
+    position: relative;
+    color: #FFFFFF;
+
+    font-family: Inter;
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
+main {
+    margin-top: 78px*$vw;
+    margin-left: 300px*$vw;
+    padding: 0 25px*$vw;
+}
+a {
+    text-decoration: none;
+}
+
+
+.my_btn {
+    padding: 10px*$vw 15px*$vw;
+    border-radius: 10px*$vw;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px*$vw;
+    line-height: 17px*$vw;
+
+    @include flex(flex, row, nowrap, center, center, unset);
+}
+.btn_p {
+    background-color: #EB266F;
+    color: #fff;
+}
+.btn_w {
+    color: #EB266F;
+    background-color: #FFFFFF;
+}
+.btn_tr {
+    color: #EB266F;
+    background-color: transparent;
+    border: 1px*$vw solid #FFFFFF;
+}
+
+.gamesW_BG {
+    background: linear-gradient(180deg, rgba(235, 38, 111, 0.12) 0%, rgba(23, 28, 44, 0) 86.31%);
+}
+
+
+.green_btn {
+    width: 213px*$vw;
+    height: 62px*$vw;
+    background: linear-gradient(270.41deg, #5EFFB1 -44.74%, #2BA400 93.45%);
+    border-radius: 15px*$vw;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-top: 25px*$vw;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px*$vw;
+    line-height: 29px*$vw;
+    color: #FFFFFF;
+}
+
+.main_fullWidth {
+    margin-left: 69px*$vw;
+}

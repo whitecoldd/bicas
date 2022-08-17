@@ -1,0 +1,52 @@
+.purple {
+  color: #eb266f;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.underline {
+  border-bottom: 3px solid #eb266f;
+}
+
+.btnCreate {
+  border-radius: 10px;
+  background-color: #fff;
+  color: #eb266f;
+  border: none;
+  padding: 7px 55px;
+  font-weight: 700;
+}
+
+.line {
+  border-top: 1px solid white;
+}
+
+.formControl2 {
+  border-radius: 10px;
+  background-color: transparent;
+  border: 1px solid #e3e3e3;
+  height: 35px;
+}
+
+.formLabel2 {
+  font-weight: 300;
+  font-size: 16px;
+  color: #e3e3e3;
+  padding: 10px 0px 0px 40px;
+}
+
+
+.btnX {
+  border-radius: 50%;
+  border: 1px solid #c6c6c6;
+  padding: 1px 7px !important;
+  color: #c6c6c6;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.line1 {
+  border-right: 1px solid #625f67;
+}

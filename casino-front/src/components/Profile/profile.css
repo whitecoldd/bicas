@@ -1,0 +1,248 @@
+.btn-activate {
+  border: 2px solid #eb266f;
+  background-color: white;
+  border-radius: 10px;
+  color: #eb266f;
+  font-size: large;
+  font-weight: 700;
+  padding: 5px 50px;
+}
+
+.btn-save {
+  border-radius: 10px;
+  background-color: #fff;
+  color: #eb266f;
+  border: 2px solid #eb266f;
+  padding: 7px 55px;
+  font-weight: 700;
+}
+.btn-save1 {
+  border-radius: 10px;
+  background-color: #fff;
+  color: #eb266f;
+  border: 2px solid #fff;
+  padding: 7px 10px;
+  font-weight: 700;
+}
+.btn-save1-dis {
+  border-radius: 10px;
+  background-color: #fff;
+  color: #eb266f;
+  border: 2px solid #fff;
+  padding: 7px 10px;
+  font-weight: 700;
+  opacity: 0.5;
+}
+.btn-confirm {
+  border-radius: 10px;
+  background-color: #eb266f;
+  color: #fff;
+  border: 2px solid #fff;
+  padding: 7px 20px;
+  font-weight: 300;
+}
+
+.btn-activate:focus {
+  border: 2px solid #f3558f;
+  background-color: white;
+  border-radius: 10px;
+  color: #f3558f;
+  font-size: large;
+  font-weight: 700;
+  padding: 5px 50px;
+}
+.btn-activate:hover {
+  border: 2px solid #f3558f;
+  background-color: white;
+  border-radius: 10px;
+  color: #f3558f;
+  font-size: large;
+  font-weight: 700;
+  padding: 5px 50px;
+}
+
+.black{
+  color: #171c2c;
+}
+
+.red {
+  color: #ff0000;
+}
+.white {
+  color: white;
+}
+.purple {
+  color: #eb266f;
+}
+.green {
+  color: #03ab00;
+}
+.bold {
+  font-weight: 700;
+}
+.gray {
+  color: #686868;
+}
+.black {
+  color: #171c2c;
+}
+.lightgray {
+  color: #b5b5b5;
+}
+.bg-darkgray {
+  background-color: #3d4255;
+}
+
+.mfs-1 {
+  font-size: smaller;
+}
+.react-tel-input .form-control {
+  position: relative;
+  font-size: 14px;
+  letter-spacing: 0.01rem;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  padding-left: 48px;
+  margin-left: 0;
+  background: transparent !important;
+  color: #171c2c !important;
+  border: 1px solid #171c2c !important;
+  border-radius: 10px !important;
+  line-height: 25px;
+  height: 35px;
+  width: 100% !important;
+  outline: none;
+}
+
+.react-tel-input .flag-dropdown {
+  background-color: transparent !important;
+  border: none !important;
+}
+.react-tel-input .selected-flag:hover {
+  background-color: transparent !important;
+  border: none !important;
+}
+.react-tel-input .selected-flag:focus {
+  background-color: transparent !important;
+  border: none !important;
+}
+.react-tel-input .selected-flag,
+.open {
+  background-color: transparent !important;
+}
+.react-tel-input .country-list .country-name {
+  color: black;
+}
+
+.accordion-item {
+  border: none !important;
+}
+.accordion-button:not(.collapsed) {
+  color: black !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+.accordion-button:focus {
+  border-color: transparent !important;
+  box-shadow: none !important;
+}
+.accordion-button {
+  font-weight: 700 !important;
+  border-bottom: none !important;
+}
+
+.form-control1 {
+  border-radius: 10px;
+  background-color: transparent;
+  border: 1px #171c2c solid;
+  height: 35px;
+}
+.form-label1 {
+  font-weight: 300;
+  font-size: 16px;
+  color: #171c2c;
+  padding: 10px 0px 0px 25px;
+}
+.trashcan {
+  position: absolute;
+  top: 15px;
+  right: -10px;
+}
+
+.nobr-btn{
+  background-color: transparent;
+  border: none;
+}
+
+.card {
+  border-radius: 10px;
+}
+
+.mm-6 {
+  margin-right: 70px;
+}
+
+.no-dec {
+  text-decoration: none;
+  cursor: pointer;
+}
+.no-dec:hover {
+  color: white;
+}
+
+.profile-box {
+  width: 1015px;
+  height: auto;
+  margin: 200px 200px !important;
+  background-color: white;
+  border-radius: 20px;
+}
+.react-tabs__tab--selected {
+  border-radius: 10px 10px 0 0 !important;
+  border: none !important;
+}
+.react-tabs__tab--selected:active {
+  border-radius: 40px 40px 0 0 !important;
+  border: none !important;
+}
+.react-tabs__tab img {
+  margin: 0px 20px;
+}
+.react-tabs__tab {
+  position: relative;
+  width: 90px;
+}
+.react-tabs__tab--selected img {
+  position: absolute;
+  border-radius: 40px 40px 0 0;
+  padding: 5px;
+  background-color: white;
+  top: -40px;
+  left: -10px;
+  margin: 0px 20px 20px 20px;
+  width: 70px !important;
+  height: 60px;
+}
+.react-tabs__tab-list {
+  border-bottom: #171c2c 10px solid !important;
+  padding-left: 60px !important;
+  padding-bottom: 5px !important;
+}
+.react-tabs__tab:active {
+  border-bottom: none !important;
+}
+.react-tabs__tab--selected:focus {
+  border-bottom: none !important;
+  padding-bottom: 0px !important;
+  height: 0px !important;
+}
+.react-tabs__tab--selected::after {
+  display: none !important;
+}
+.react-tabs__tab:focus:after {
+  display: none !important;
+}
+
+.w-40 {
+  width: 40%;
+}

@@ -1,0 +1,189 @@
+@import "../../globalStyles";
+
+
+.footer {
+    width: 100%;
+    padding: 0 75px*$vw 0 375px*$vw;
+
+    @include flex(flex, column, nowrap, flex-start, flex-start, unset);
+}
+.footer_content {
+    width: 100%;
+    margin-bottom: 50px*$vw;
+
+    @include flex(flex, row, nowrap, space-between, flex-start, unset);
+    gap: 182px*$vw;
+}
+
+.footer_logoAndSocials {
+    @include flex(flex, column, nowrap, flex-start, flex-start, unset);
+}
+.footer_logoAndIcon {
+    margin-bottom: 25px*$vw;
+
+    @include flex(flex, row, nowrap, flex-start, center, unset);
+
+    .footer_logo {
+        width: 205px*$vw;
+        height: 69px*$vw;
+        margin-right: 24px*$vw;
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+    .footer_icon {
+        width: 55px*$vw;
+        height: 59px*$vw;
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+}
+.footer_lang {
+    width: 153px*$vw;
+    margin-bottom: 50px*$vw;
+
+    .leftMenu_language_arrow {
+        right: 0;
+    }
+}
+
+.footer_socials {
+    @include flex(flex, row, wrap, flex-start, center, unset);
+
+    margin-top: 25px;
+    gap: 25px*$vw;
+}
+.footer_socialIcon {
+    width: 44px*$vw;
+    height: 44px*$vw;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+
+    @include flex(flex, row, nowrap, center, center, unset);
+
+    svg {
+        width: 50%;
+        height: 50%;
+        object-fit: contain;
+    }
+}
+
+
+.footer_links_w {
+    width: 968px*$vw;
+
+    @include flex(flex, row, nowrap, space-between, flex-start, unset);
+}
+
+.footerLinksCol_title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px*$vw;
+    line-height: 29px*$vw;
+    color: #FFFFFF;
+    margin-bottom: 25px*$vw;
+}
+.footer_links_column {
+    width: 322px*$vw;
+
+    ul {
+        list-style: none;
+
+        @include flex(flex, column, nowrap, flex-start, flex-start, unset);
+
+        gap: 10px*$vw;
+
+        a {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 18px*$vw;
+            line-height: 22px*$vw;
+            color: #AAAAAA;
+        }
+    }
+}
+
+.footer>hr {
+    width: 100%;
+    border: 0;
+    border-bottom: 0.7px*$vw solid rgba(255, 208, 226, 0.7);
+    background-color: rgba(255, 208, 226, 0.7);
+}
+
+.footer_slider {
+    width: 100%;
+    padding: 30px*$vw 40px*$vw;
+    position: relative;
+
+    @include flex(flex, row, nowrap, flex-start, center, unset);
+
+    gap: 50px*$vw;
+}
+.footer_slide {
+    width: 120px*$vw;
+    height: 40px*$vw;
+    /* margin: 0 50px; */
+    
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+.alice-carousel__stage-item {
+    margin: 0 25px*$vw !important;
+}
+.footer_slider_arrow {
+    width: 10px*$vw;
+    height: 13px*$vw;
+    position: absolute;
+    left: 0;
+
+    svg {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+
+    &.right {
+        transform: rotate(180deg);
+        left: unset;
+        right: 0;
+    }
+}
+
+
+.react-multi-carousel-list {
+    width: 100%;
+    height: 100%;
+}
+
+.footer .alice-carousel__prev-btn-item span::after,
+.footer .alice-carousel__next-btn-item span::after {
+    content: url('../../assets/img/footerSliderLeftArrow.svg');
+}
+.footer .alice-carousel__next-btn-item {
+    transform: rotate(180deg);
+}
+.footer .alice-carousel__prev-btn,
+.footer .alice-carousel__next-btn {
+    width: fit-content;
+    position: absolute;
+    top: -1px*$vw;
+    left: -44px*$vw;
+}
+.footer .alice-carousel__next-btn {
+    left: unset;
+    right: -44px*$vw;
+}
+
+
+.footer_fullWidth {
+    padding-left: 150px*$vw;
+}

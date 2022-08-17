@@ -1,0 +1,188 @@
+@import "../../../globalStyles";
+
+
+
+.gamesW {
+    width: 100%;
+    border-radius: 39px*$vw;
+    padding: 50px*$vw;
+}
+
+.sectionTitle1 {
+    margin-bottom: 25px*$vw;
+
+    @include flex(flex, row, nowrap, flex-start, center, unset);
+
+    span {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px*$vw;
+        line-height: 48px*$vw;
+        letter-spacing: 0.04em;
+        color: #FFFFFF;
+    }
+}
+.gamesW_TitleImg {
+    width: 50px*$vw;
+    height: 50px*$vw;
+    background-color: #EB266F;
+    border-radius: 6px*$vw;
+    margin-right: 24px*$vw;
+
+    @include flex(flex, row, nowrap, center, center, unset);
+
+    svg {
+        width: 50%;
+        height: 50%;
+        object-fit: contain;
+    }
+}
+
+.gamesW_topBlock {
+    width: 100%;
+    margin-bottom: 25px*$vw;
+
+    @include flex(flex, row, nowrap, space-between, center, unset);
+}
+.gamesW_cats_w {
+    @include flex(flex, row, nowrap, flex-start, center, unset);
+
+    gap: 25px*$vw;
+}
+.gamesW_cats_item {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px*$vw;
+    line-height: 19px*$vw;
+    color: #939393;
+    /* margin: 0 12.5px*$vw; */
+    cursor: pointer;
+}
+.selected {
+    color: #FFFFFF;
+}
+
+.gamesW_right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    cursor: pointer;
+
+    span {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px*$vw;
+        line-height: 19px*$vw;
+        color: #939393;
+        margin-right: 10px*$vw;
+    }
+}
+.gamesW_filter_img {
+    width: 14px*$vw;
+    height: 12px*$vw;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    svg {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+}
+
+.gamesContainer {
+    width: 100%;
+    margin-bottom: 50px*$vw;
+    margin-top: 25px*$vw;
+
+    @include flex(flex, row, wrap, flex-start, flex-start, unset);
+
+    gap: 39px*$vw;
+}
+
+
+
+.seeMore_btn {
+    width: 100%;
+
+    @include flex(flex, row, nowrap, space-between, center, unset);
+
+    hr {
+        width: 100%;
+        border: 0;
+        border-bottom: 0.7px*$vw solid rgba(255, 208, 226, 0.7);
+        background-color: rgba(255, 208, 226, 0.7);
+    }
+    span {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px*$vw;
+        line-height: 17px*$vw;
+        letter-spacing: 0.04em;
+        color: rgba(255, 208, 226, 0.7);
+        white-space: nowrap;
+        padding: 0 23px*$vw;
+        cursor: pointer;
+    }
+}
+
+.gamesW_right_seeAll {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+}
+
+.gamesW_promoBanner {
+    width: 100%;
+    border-radius: 24px*$vw;
+    overflow: hidden;
+    position: relative;
+
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+
+    &>img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+.gamesW_promoBanner_content {
+    position: absolute;
+    top: 132px*$vw;
+    left: 20px*$vw;
+
+    button {
+        margin: 0;
+    }
+}
+.gamesW_promoBanner_title {
+    width: 153px*$vw;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px*$vw;
+    line-height: 36px*$vw;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 35px*$vw;
+}
+.nogames_message {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px*$vw;
+    line-height: 24px*$vw;
+    color: #FFFFFF;
+    margin: 0 auto;
+}

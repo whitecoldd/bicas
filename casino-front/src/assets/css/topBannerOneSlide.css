@@ -1,0 +1,58 @@
+.topBanner_oneSlide {
+  width: 28.4375vw;
+}
+
+.topBanner_oneSlide .bonus {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 0.83333vw;
+  line-height: 0.98958vw;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #38BC30;
+  margin-bottom: 1.19792vw;
+}
+
+.topBanner_oneSlide .firstTitle {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.39583vw;
+  line-height: 2.91667vw;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+  margin-top: 1.19792vw;
+}
+
+.topBanner_oneSlide .lastTitle {
+  width: 28.125vw;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.39583vw;
+  line-height: 2.91667vw;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+}
+
+.topBanner_oneSlide .lastTitle span {
+  color: #EB266F;
+}
+
+.topBanner_oneSlide .green_btn {
+  width: 11.09375vw;
+  height: 3.22917vw;
+  background: linear-gradient(270.41deg, #5EFFB1 -44.74%, #2BA400 93.45%);
+  border-radius: 0.78125vw;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-top: 1.30208vw;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 1.25vw;
+  line-height: 1.51042vw;
+  color: #FFFFFF;
+}

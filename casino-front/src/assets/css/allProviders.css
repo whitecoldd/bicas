@@ -1,0 +1,107 @@
+.AllProviders {
+  width: 100%;
+  padding: 2.60417vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-line-pack: unset;
+      align-content: unset;
+}
+
+.AllProviders_w {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: unset;
+      align-content: unset;
+  gap: 1.66667vw;
+  margin-bottom: 2.60417vw;
+  margin-right: 1.66667vw;
+}
+
+.oneProvider {
+  width: 10.41667vw;
+  height: 4.16667vw;
+  background-color: #949494;
+  border-radius: 1.04167vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: unset;
+      align-content: unset;
+}
+
+.oneProvider img {
+  width: 80%;
+  height: 80%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.AllProviders_title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.82292vw;
+  line-height: 2.1875vw;
+  color: #FFFFFF;
+  margin-bottom: 1.35417vw;
+}
+
+.AllProviders_text {
+  height: auto;
+  overflow: hidden;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.04167vw;
+  line-height: 138.4%;
+  color: #fff;
+  margin-bottom: 1.82292vw;
+}
+
+.AllProviders_text_blur {
+  height: 4.16667vw;
+  background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), color-stop(83.21%, rgba(255, 255, 255, 0)));
+  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 83.21%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}

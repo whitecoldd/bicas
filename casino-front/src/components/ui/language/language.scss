@@ -1,0 +1,40 @@
+@import "../../../globalStyles";
+
+
+.lang_wrapper {
+    width: 100%;
+
+    .dropBtn {
+        width: 100%;
+    }
+
+    .nav_dropdown {
+        position: unset;
+    }
+
+    .navDropdown_Item {
+        cursor: pointer;
+
+        @include flex(flex, row, nowrap, flex-start, center, unset);
+
+        .navDropdown_ItemImg {
+            width: 28px*$vw;
+            height: 28px*$vw;
+        }
+        .navDropdown_ItemText {
+            margin-left: 15px*$vw;
+
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 20px*$vw;
+            line-height: 24px*$vw;
+            color: #171C2C;
+            white-space: nowrap;
+        }
+    }
+}
+
+.lang_item {
+    margin: 7px*$vw 0;
+}

@@ -1,0 +1,360 @@
+@import "../../globalStyles";
+
+.header {
+    width: inherit;
+    height: 78px*$vw;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 10;
+    background-color: #171C2C;
+
+    @include flex(flex, row, nowrap, flex-start, center, unset);
+}
+.leftMenu_place {
+    width: 300px*$vw;
+    height: 100%;
+}
+.header_w {
+    width: 1620px*$vw;
+    height: 100%;
+    padding: 19px*$vw 78px*$vw;
+
+    @include flex(flex, row, nowrap, space-between, center, unset);
+}
+.nav {
+    ul {
+        list-style: none;
+        margin-bottom: 0;
+
+        @include flex(flex, row, nowrap, flex-start, center, unset);
+
+        li {
+            margin: 0 14px*$vw;
+        }
+    }
+}
+.navItem {
+    cursor: pointer;
+
+    @include flex(flex, row, nowrap, flex-start, center, unset);
+}
+.navItem_text {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px*$vw;
+    line-height: 24px*$vw;
+    color: #FFFFFF;
+    margin-left: 15px*$vw;
+    margin-right: 5px*$vw;
+}
+
+.header_right {
+    @include flex(flex, row, nowrap, flex-start, center, unset);
+
+    button {
+        margin: 0 12.5px*$vw;
+    }
+}
+
+.header_gift {
+    width: 40px*$vw;
+    height: 40px*$vw;
+    padding: 7.5px*$vw 9px*$vw;
+    border-radius: 7px*$vw;
+
+    svg {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+}
+.btn_p {
+    background-color: #EB266F;
+    color: #fff;
+}
+
+
+.nav_dropdown {
+    /* position: absolute;
+    top: 0; */
+    background: #FFFFFF;
+    border-top: 4px*$vw solid #EB266F;
+    border-radius: 11px*$vw;
+    padding: 15px*$vw;
+
+    @include flex(flex, column, nowrap, flex-start, flex-start, unset);
+
+    a {
+        margin: 10px*$vw 0;
+    }
+}
+.navDropdown_Item {
+    cursor: pointer;
+
+    @include flex(flex, row, nowrap, flex-start, center, unset);
+
+    .navDropdown_ItemImg {
+        width: 28px*$vw;
+        height: 28px*$vw;
+    }
+    .navDropdown_ItemText {
+        margin-left: 15px*$vw;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px*$vw;
+        line-height: 24px*$vw;
+        color: #171C2C;
+        white-space: nowrap;
+    }
+}
+
+
+
+
+
+/* ============= Header Left Menu =========== */
+.leftMenu_w {
+    width: 100%;
+    height: 100vh;
+    background-color: #252C40;
+    padding: 25px*$vw 11px*$vw 47px*$vw 25px*$vw;
+    position: relative;
+    overflow: hidden;
+
+    hr {
+        border: 0;
+        border-bottom: 1px*$vw solid rgba(176, 176, 176, 0.5);
+        background-color: rgba(176, 176, 176, 0.5);
+    }
+}
+
+.leftMenu_content {
+    height: inherit;
+    overflow-y: auto;
+    padding-bottom: 140px*$vw;
+
+    @include flex(flex, column, nowrap, flex-start, flex-start, unset);
+
+    &::-webkit-scrollbar {
+        width: 4px*$vw;
+    }
+    &::-webkit-scrollbar-thumb {
+        width: 4px*$vw;
+        background: rgba(217, 217, 217, 0.5);
+        border-radius: 22px*$vw;
+    }
+
+    .leftMenu_hr {
+        width: 95%;
+        margin: 25px*$vw 0;
+    }
+}
+.leftMenu_logo {
+    width: 205px*$vw;
+    height: 59px*$vw;
+    margin-bottom: 25px*$vw;
+    cursor: pointer;
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+.leftMenu_logo2 {
+    width: 39px*$vw;
+    height: 39px*$vw;
+    margin-bottom: 45px*$vw;
+    cursor: pointer;
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+.leftMenu_arrow {
+    position: absolute;
+    top: 100px*$vw;
+    right: 0;
+    width: 20px*$vw;
+    height: 20px*$vw;
+    background: #6B6E78;
+    border-radius: 50%;
+    padding-right: 2px*$vw;
+    cursor: pointer;
+
+    @include flex(flex, row, nowrap, center, center, unset);
+
+    svg {
+        width: 35%;
+        height: auto;
+    }
+}
+
+.leftMenu_wallet_w {
+    width: 249px*$vw;
+    background: rgba(43, 164, 1, 0.2);
+    border-radius: 15px*$vw;
+    margin-top: 25px*$vw;
+    padding: 15px*$vw;
+    margin-bottom: 25px*$vw;
+
+    @include flex(flex, column, nowrap, flex-start, flex-start, unset);
+}
+.leftMenu_walletTop {
+    width: 100%;
+    margin-bottom: 10px*$vw;
+
+    @include flex(flex, row, nowrap, space-between, center, unset);
+}
+.leftMenu_walletImg {
+    width: 36px*$vw;
+    height: 24px*$vw;
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+.leftMenu_wallet_plus {
+    width: 24px*$vw;
+    height: 24px*$vw;
+    border-radius: 50%;
+    border: 1.5px*$vw solid #FFFFFF;
+
+    @include flex(flex, row, nowrap, center, center, unset);
+
+    font-size: 20px*$vw;
+    color: #fff;
+    cursor: pointer;
+}
+.leftMenu_listTitle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px*$vw;
+    line-height: 22px*$vw;
+    color: #FFFFFF;
+    margin-bottom: 5px*$vw;
+}
+.leftMenu_list {
+    padding-left: 20px*$vw;
+
+    li {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px*$vw;
+        line-height: 22px*$vw;
+        color: #FFFFFF;
+        margin: 5px*$vw 0;
+    }
+}
+
+.leftMenu_oneItem {
+    position: relative;
+    padding: 15px*$vw 0;
+
+    @include flex(flex, row, nowrap, flex-start, center, unset);
+
+    span {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px*$vw;
+        line-height: 24px*$vw;
+        color: #FFFFFF;
+        margin-left: 50px*$vw;
+    }
+    &.user {
+        span {
+            font-size: 24px*$vw;
+            line-height: 29px*$vw;
+        }
+    }
+    .leftMenu_oneItem_img {
+        width: 35px*$vw;
+        height: 35px*$vw;
+        position: absolute;
+        left: 0;
+
+        &.lang {
+            width: 27px*$vw;
+            height: 27px*$vw;
+        }
+
+        img,
+        svg {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+}
+
+.leftMenu_languageBtn {
+    width: 100%;
+    position: relative;
+    cursor: pointer;
+
+    @include flex(flex, row, nowrap, flex-start, center, unset);
+
+    .leftMenu_language_arrow {
+        position: absolute;
+        right: 35px*$vw;
+    }
+}
+
+
+.navItemIcon {
+    width: 28px*$vw;
+    height: 28px*$vw;
+
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+
+    svg {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+}
+.navItem_arrow {
+    width: 10px*$vw;
+    height: 6px*$vw;
+
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+
+    svg {
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+    }
+}
+
+
+
+.leftMenu_closed {
+    width: 60px*$vw;
+    padding-left: 11px*$vw;
+}
+.displayNone {
+    display: none;
+}
+.leftMenu_place_closed {
+    width: 60px*$vw;
+}
+.header_w_closed {
+    width: 1860px*$vw;
+}
+
+/* ========================================== */

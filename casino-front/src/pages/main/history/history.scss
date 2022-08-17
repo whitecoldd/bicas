@@ -1,0 +1,113 @@
+@import "../../../globalStyles";
+
+
+
+.history {
+    width: 100%;
+}
+
+.history_btns {
+    margin-left: 50px*$vw;
+    margin-bottom: 35px*$vw;
+
+    @include flex(flex, row, nowrap, flex-start, center, unset);
+
+    gap: 25px*$vw;
+}
+
+.history_table {
+    width: 100%;
+    background: linear-gradient(0deg, rgba(235, 38, 111, 0.12) 0%, rgba(23, 28, 44, 0) 86.31%);
+
+    border: 1px*$vw solid #FFFFFF;
+    border-radius: 39px*$vw;
+}
+.history_table_header {
+    width: 100%;
+    padding: 23px*$vw 50px*$vw;
+    border-bottom: 1px*$vw solid #FFFFFF;
+
+    @include flex(flex, row, nowrap, flex-start, center, unset);
+
+    span {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px*$vw;
+        line-height: 22px*$vw;
+        color: #A5A5A5;
+
+        &:first-child {
+            width: 360px*$vw;
+        }
+        &:nth-child(2) {
+            width: 311px*$vw;
+        }
+        &:nth-child(3) {
+            width: 385px*$vw;
+        }
+        &:nth-child(4) {
+            width: 300px*$vw;
+        }
+        &:last-child {
+            width: 114px*$vw;
+            text-align: right;
+        }
+    }
+}
+.history_table_body {
+    width: 100%;
+    padding: 40px*$vw 50px*$vw 50px*$vw;
+
+    @include flex(flex, column, nowrap, flex-start, center, unset);
+    
+    gap: 40px*$vw;
+}
+.history_table_row {
+    width: 100%;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+
+    span {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px*$vw;
+        line-height: 22px*$vw;
+        color: #FFFFFF;
+
+        &:first-child {
+            width: 360px*$vw;
+        }
+        &:nth-child(2) {
+            width: 311px*$vw;
+        }
+        &:nth-child(3) {
+            width: 385px*$vw;
+        }
+        &:nth-child(4) {
+            width: 300px*$vw;
+        }
+        &:last-child {
+            width: 114px*$vw;
+            text-align: right;
+            color: #24B400;
+        }
+    }
+}
+
+.history_table_casino,
+.history_table_betting {
+    /* visibility: hidden;
+    opacity: 0;
+    transition: 0.3s; */
+    display: none;
+}
+.history_table_show {
+    /* visibility: visible;
+    opacity: 1; */
+    display: block;
+}

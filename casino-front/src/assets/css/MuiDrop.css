@@ -1,0 +1,20 @@
+.dropBtn {
+  border: none;
+  background-color: transparent;
+}
+
+.css-fi1bin {
+  z-index: 10 !important;
+}
+
+.MuiPaper-elevation,
+.MuiMenu-list {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  background-color: transparent !important;
+}
+
+.css-1e6y48t-MuiButtonBase-root-MuiButton-root {
+  width: 100%;
+}

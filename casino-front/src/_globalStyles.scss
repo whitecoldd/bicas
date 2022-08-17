@@ -1,0 +1,19 @@
+$width: 1920px; // ширина всего сайта на компах
+$mobileWidth: 360px; // ширина всего сайта на мобилках
+$tabWidth: 501px; // ширина всего сайта на планшетах
+
+$vw: 1/$width*100vw; // Расчет вьюпорторв для компов
+$TELvw: 1/$mobileWidth*100vw; // Расчет вьюпорторв для телефонов
+$TABvw: 1/$tabWidth*100vw; // Расчет вьюпорторв для планшетов
+
+$telBP: 500px; // Брейкпоинт для телефонов
+$tabBP: 1024px; // Брекпоинт для планшетов
+
+@mixin flex ($display, $direction, $wrap, $justify, $lignI, $alignC) {
+    display: $display;
+    flex-direction: $direction;
+    flex-wrap: $wrap;
+    justify-content: $justify;
+    align-items: $lignI;
+    align-content: $alignC;
+}

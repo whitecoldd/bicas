@@ -1,0 +1,102 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  background-color: #171C2C;
+  overflow-x: hidden;
+  margin: 0 auto;
+  position: relative;
+  color: #FFFFFF;
+  font-family: Inter;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+main {
+  margin-top: 4.0625vw;
+  margin-left: 15.625vw;
+  padding: 0 1.30208vw;
+}
+
+a {
+  text-decoration: none;
+}
+
+.my_btn {
+  padding: 0.52083vw 0.78125vw;
+  border-radius: 0.52083vw;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 0.72917vw;
+  line-height: 0.88542vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: unset;
+      align-content: unset;
+}
+
+.btn_p {
+  background-color: #EB266F;
+  color: #fff;
+}
+
+.btn_w {
+  color: #EB266F;
+  background-color: #FFFFFF;
+}
+
+.btn_tr {
+  color: #EB266F;
+  background-color: transparent;
+  border: 0.05208vw solid #FFFFFF;
+}
+
+.gamesW_BG {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(235, 38, 111, 0.12)), color-stop(86.31%, rgba(23, 28, 44, 0)));
+  background: linear-gradient(180deg, rgba(235, 38, 111, 0.12) 0%, rgba(23, 28, 44, 0) 86.31%);
+}
+
+.green_btn {
+  width: 11.09375vw;
+  height: 3.22917vw;
+  background: linear-gradient(270.41deg, #5EFFB1 -44.74%, #2BA400 93.45%);
+  border-radius: 0.78125vw;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin-top: 1.30208vw;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 1.25vw;
+  line-height: 1.51042vw;
+  color: #FFFFFF;
+}
+
+.main_fullWidth {
+  margin-left: 3.59375vw;
+}

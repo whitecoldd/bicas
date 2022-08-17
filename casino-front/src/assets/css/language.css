@@ -1,0 +1,52 @@
+.lang_wrapper {
+  width: 100%;
+}
+
+.lang_wrapper .dropBtn {
+  width: 100%;
+}
+
+.lang_wrapper .nav_dropdown {
+  position: unset;
+}
+
+.lang_wrapper .navDropdown_Item {
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: unset;
+      align-content: unset;
+}
+
+.lang_wrapper .navDropdown_Item .navDropdown_ItemImg {
+  width: 1.45833vw;
+  height: 1.45833vw;
+}
+
+.lang_wrapper .navDropdown_Item .navDropdown_ItemText {
+  margin-left: 0.78125vw;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.04167vw;
+  line-height: 1.25vw;
+  color: #171C2C;
+  white-space: nowrap;
+}
+
+.lang_item {
+  margin: 0.36458vw 0;
+}

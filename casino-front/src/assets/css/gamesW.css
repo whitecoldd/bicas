@@ -1,0 +1,312 @@
+.gamesW {
+  width: 100%;
+  border-radius: 2.03125vw;
+  padding: 2.60417vw;
+}
+
+.sectionTitle1 {
+  margin-bottom: 1.30208vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: unset;
+      align-content: unset;
+}
+
+.sectionTitle1 span {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.08333vw;
+  line-height: 2.5vw;
+  letter-spacing: 0.04em;
+  color: #FFFFFF;
+}
+
+.gamesW_TitleImg {
+  width: 2.60417vw;
+  height: 2.60417vw;
+  background-color: #EB266F;
+  border-radius: 0.3125vw;
+  margin-right: 1.25vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: unset;
+      align-content: unset;
+}
+
+.gamesW_TitleImg svg {
+  width: 50%;
+  height: 50%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.gamesW_topBlock {
+  width: 100%;
+  margin-bottom: 1.30208vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: unset;
+      align-content: unset;
+}
+
+.gamesW_cats_w {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: unset;
+      align-content: unset;
+  gap: 1.30208vw;
+}
+
+.gamesW_cats_item {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.83333vw;
+  line-height: 0.98958vw;
+  color: #939393;
+  /* margin: 0 12.5px*$vw; */
+  cursor: pointer;
+}
+
+.selected {
+  color: #FFFFFF;
+}
+
+.gamesW_right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+}
+
+.gamesW_right span {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.83333vw;
+  line-height: 0.98958vw;
+  color: #939393;
+  margin-right: 0.52083vw;
+}
+
+.gamesW_filter_img {
+  width: 0.72917vw;
+  height: 0.625vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.gamesW_filter_img svg {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.gamesContainer {
+  width: 100%;
+  margin-bottom: 2.60417vw;
+  margin-top: 1.30208vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -ms-flex-line-pack: unset;
+      align-content: unset;
+  gap: 2.03125vw;
+}
+
+.seeMore_btn {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: unset;
+      align-content: unset;
+}
+
+.seeMore_btn hr {
+  width: 100%;
+  border: 0;
+  border-bottom: 0.03646vw solid rgba(255, 208, 226, 0.7);
+  background-color: rgba(255, 208, 226, 0.7);
+}
+
+.seeMore_btn span {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.72917vw;
+  line-height: 0.88542vw;
+  letter-spacing: 0.04em;
+  color: rgba(255, 208, 226, 0.7);
+  white-space: nowrap;
+  padding: 0 1.19792vw;
+  cursor: pointer;
+}
+
+.gamesW_right_seeAll {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.gamesW_promoBanner {
+  width: 100%;
+  border-radius: 1.25vw;
+  overflow: hidden;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row;
+          flex-flow: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.gamesW_promoBanner > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.gamesW_promoBanner_content {
+  position: absolute;
+  top: 6.875vw;
+  left: 1.04167vw;
+}
+
+.gamesW_promoBanner_content button {
+  margin: 0;
+}
+
+.gamesW_promoBanner_title {
+  width: 7.96875vw;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 1.5625vw;
+  line-height: 1.875vw;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-bottom: 1.82292vw;
+}
+
+.nogames_message {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.04167vw;
+  line-height: 1.25vw;
+  color: #FFFFFF;
+  margin: 0 auto;
+}

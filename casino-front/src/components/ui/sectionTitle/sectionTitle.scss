@@ -1,0 +1,19 @@
+@import "../../../globalStyles";
+
+
+
+.sectionTitle1 {
+    margin-bottom: 25px*$vw;
+
+    @include flex(flex, row, nowrap, flex-start, center, unset);
+
+    span {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px*$vw;
+        line-height: 48px*$vw;
+        letter-spacing: 0.04em;
+        color: #FFFFFF;
+    }
+}
