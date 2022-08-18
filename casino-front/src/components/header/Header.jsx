@@ -120,7 +120,7 @@ export default function Header({ user }) {
                 </div>
                 <span>
                   {user ? (
-                    "James W."
+                    user.email
                   ) : (
                     <button className="my_btn btn_p" onClick={handleSignupOpen}>
                       SIGN UP
