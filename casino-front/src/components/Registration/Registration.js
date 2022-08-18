@@ -13,9 +13,10 @@ import Modal from "react-modal";
 import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
 import axios from "axios";
-import {login} from '../../redux_store/apiCalls'
-import {useDispatch, useSelector} from 'react-redux'
+import { login } from "../../redux_store/apiCalls";
+import { useDispatch, useSelector } from "react-redux";
 import { publicRequest } from "../../requestMethods";
+import { useNavigate } from "react-router";
 const Registration = ({ openModal, setopenModal, Vision, setVision }) => {
   // const [Open, setOpen] = useState(false);
   const [Data, setData] = useState(false);
@@ -40,7 +41,8 @@ const Registration = ({ openModal, setopenModal, Vision, setVision }) => {
       zIndex: 1000,
     },
   };
-  const dispatch = useDispatch()
+  const dispatch = useDispatch();
+  const history = useNavigate();
   const [inputs, setInputs] = useState({});
   const [inputs1, setInputs1] = useState({});
   const handleChange = (e) => {
@@ -55,17 +57,15 @@ const Registration = ({ openModal, setopenModal, Vision, setVision }) => {
   };
   const handleChangePhone = (e) => {
     setValue(e);
-    console.log(e)
+    console.log(e);
   };
   const userReg = { ...inputs, phone: value.toString() };
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const res = await publicRequest.post(
-        `/api/auth/register`,
-        userReg
-      );
+      const res = await publicRequest.post(`/api/auth/register`, userReg);
       console.log(res.data);
+      setVision(false);
     } catch (e) {
       console.log(e);
     }
@@ -76,6 +76,8 @@ const Registration = ({ openModal, setopenModal, Vision, setVision }) => {
     e.preventDefault();
     try {
       login(dispatch, userLog);
+      setopenModal(false);
+      history("/profile");
     } catch (e) {
       console.log(e);
     }
@@ -191,8 +193,11 @@ const Registration = ({ openModal, setopenModal, Vision, setVision }) => {
                       value={value}
                       disableCountryCode={false}
                       autoFormat={true}
-                      className='phonesearch'
-                      searchStyle={{color: "white", border: "1px white solid"}}
+                      className="phonesearch"
+                      searchStyle={{
+                        color: "white",
+                        border: "1px white solid",
+                      }}
                       onChange={handleChangePhone}
                       name="phone"
                     />
